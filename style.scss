@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,700;1,900&display=swap');
+
+body {
+    background-color: skyblue;
+    padding: 0;
+    margin: 0;
+}
+.logo {
+    height: 30px;
+    width: 30px;
+    background-image: url(Img/Logo2.gif);
+    background-size: cover;
+    border-radius: 100%;
+}
+.navbar {
+    height: 40px;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+.img01 {
+    height: 600px;
+    width: 100%;
+    background-image: url(Img/IMG-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin: 1rem;
+}
+nav ul li {
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #110501;
+}
+nav ul li a:hover {
+    color: #e8e3e1;
+}
+.titulo {
+    color: #1712123a;
+    text-align: center;
+    font-size: 100px;
+    letter-spacing: 10px;
+}
+.ref {
+    text-align: center;
+}
+.link {
+    text-decoration: none;
+    color: #1127d0;
+}
+.link:hover {
+    text-transform: uppercase;
+    color: #c00707;
+}
+footer {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: #7d0a0a3a;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.container__img {
+    width: 50%;
+}
+/*Contenido 01 Home*/
+.titulos2 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.contenido01 {
+    width: 100%;
+    margin: 2rem auto;
+}
+.contenido01__container {
+    display: flex;
+    gap: 2rem;
+    margin: 5%;
+}
+.contenido01_texto {
+    width: 75%;
+    margin-left: 20px;
+}
+.illustration {
+    width: 100%;
+    height: 250px;
+
+}
+.contenido01__container--reverse {
+    flex-direction: row-reverse;
+}
+@media only screen and (min-width:420px) and (max-width:767px) {
+    body {
+        background-color: skyblue;
+        padding: 0;
+        margin: 0;
+    }
+    .img01 {
+        height: 300px;
+        width: 100%;
+    }
+    .titulo {
+        color: #1712123a;
+        text-align: center;
+        font-size: 50px;
+        letter-spacing: 5px;
+    }
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+        gap: .5rem;
+        margin: .5rem;
+    }
+    nav ul li {
+        list-style: none;
+        font-size: .6rem;
+        font-weight: 300;
+    }
+    .contenido01__container {
+        display: inline-block;
+        gap: 1rem;
+        margin: 0%;
+    }
+    .titulos2 {
+        font-size: 17px;
+        letter-spacing: 3.5px;
+    }
+}
+@media only screen and (max-width:419px) {
+    .img01 {
+        height: 150px;
+        width: 100%;
+    }
+    .titulo {
+        color: #1712123a;
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 2.5px;
+    }
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+        gap: .25rem;
+        margin: .25rem;
+    }
+    nav ul li {
+        list-style: none;
+        font-size: .3rem;
+        font-weight: 150;
+    }
+    .contenido01__container {
+        display: inline-block;
+        gap: .5rem;
+        margin: 0%;
+    }
+    .titulos2 {
+        font-size: 17px;
+        letter-spacing: 3.5px;
+    }
+    .illustration {
+        height: 50%;
+    }
+}
+
+/* GALLERY */
+#fgaleria {
+    background-image: url(Img/fondogaleria01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.gallery {
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #0e030a78;
+}
+.galeria {
+    min-height: 500px;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-auto-rows: auto;
+}
+.img {
+    border: 4px solid snow;
+    border-radius: 50%;
+    transform: translate(center);
+}
+.img:hover {
+    transform: scale(180%);
+    transition: all 0.75s;
+}
+.img1 {
+    background-image: url(Img/KiteSurf-4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img2 {
+    background-image: url(Img/KiteSurf-Spot2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img3 {
+    background-image: url(Img/KiteSurf-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img4 {
+    background-image: url(Img/KiteSurf-12width.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img5 {
+    background-image: url(Img/NI-101.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img6 {
+    background-image: url(Img/KiteSurf-11ro.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img7 {
+    background-image: url(Img/KiteSurf-6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img8 {
+    background-image: url(Img/KiteSurf-7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img9 {
+    background-image: url(Img/KiteSurf-13width.jpg);
+    background-size: cover;
+    background-position: center;
+}
+@media only screen and (max-width:319px) {
+    .gallery {
+        font-size: 15px;
+        letter-spacing: 2px;
+        color: #0e030a78;
+    }
+    #fgaleria {
+        background-image: none;
+    }
+    .galeria {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(9, 1fr);
+        width: 99%;
+
+    }
+    .img {
+        border: 2px solid snow;
+        border-radius: 30%;
+    }
+    .img:hover {
+        transform: scale(120%);
+        transition: all 0.75s;
+    }
+}
+@media only screen and (min-width:320px) and (max-width:489px) {
+    .galeria {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+    .imp:hover {
+        transform: scale(150%) translate(20px);
+        transition: all 0.75s;
+    }
+    .par:hover {
+        transform: scale(150%) translate(-20px);
+        transition: all 0.75s;
+    }
+}
+@media only screen and (min-width:490px) and (max-width:767px) {
+    .galeria {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .izq:hover {
+        transform: scale(180%) translate(30px);
+        transition: all 0.75s;
+    }
+    .der:hover {
+        transform: scale(180%) translate(-30px);
+        transition: all 0.75s;
+    }
+    .img1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+
+    }
+    .img2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .img3 {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .img4 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .img5 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .img6 {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    .img7 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .img8 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .img9 {
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+}
+@media only screen and (min-width:768px) {
+    .gallery {
+        font-size: 50px;
+        letter-spacing: 10px;
+        color: #0e030a78;
+    }
+    .galeria {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 200px 200px 100px 200px;
+    }
+    .izq:hover {
+        transform: scale(180%) translate(120px);
+        transition: all 0.75s;
+    }
+    .der:hover {
+        transform: scale(180%) translate(-120px);
+        transition: all 0.75s;
+    }
+    .img1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .img2 {
+        grid-column: 2/4;
+        grid-row: 1/2;
+        background-color: cadetblue;
+    }
+    .img3 {
+        grid-column: 4/5;
+        grid-row: 1/2;
+        background-color: chartreuse;
+    }
+    .img4 {
+        grid-column: 1/3;
+        grid-row: 2/4;
+        background-color: cornflowerblue;
+    }
+    .img5 {
+        grid-column: 3/4;
+        grid-row: 2/3;
+        background-color: crimson;
+    }
+    .img6 {
+        grid-column: 4/5;
+        grid-row: 2/3;
+        background-color: darkorange;
+    }
+    .img7 {
+        grid-column: 1/2;
+        grid-row: 4/5;
+        background-color: darkblue;
+    }
+    .img8 {
+        grid-column: 2/3;
+        grid-row: 4/5;
+        background-color: darkred;
+    }
+    .img9 {
+        grid-column: 3/5;
+        grid-row: 3/5;
+        background-color: darkred
+    }
+}
+ /* CONTACTOS */
+ .formContainer {
+    width: 100%;
+    margin: auto;
+    background-color: #121212;
+    background-image: url(Img/NI-24.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 1.5rem 1rem;
+    border-radius: 0.5rem;
+}
+.formContainer__title {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    text-align: center;
+}
+.form {
+    text-align: center;
+}
+.form__label {
+    display: inline-block;
+    width: 60%;
+    color: #fff;
+    text-align: left;
+    font-weight: 600;
+}
+.form__input,
+.form__textarea {
+    width: 60%;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: #121212;
+    color: #fff;
+    border: none;
+    border-bottom: solid 1px #c87d5d;
+    font-size: 1rem;
+}
+.form__textarea {
+    height: 5rem;
+    resize: none;
+}
+.form__input:focus,
+.form__textarea:focus {
+    outline: none;
+}
+.form__input--submit {
+    background-color: #176dcf;
+    margin-top: 1.5rem;
+    border-radius: 0.3rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.form__input--submit:hover {
+    background-color: #d05d11;
+}
+.inicio {
+    color: #121212;
+    font-size: 130%;
+    text-decoration: none;
+    margin: 15px;
+    padding-bottom: 15px;
+}
+
+/*EQUIPO*/
+.equipo {
+    height: 600px;
+    width: 100%;
+    background-color: rgb(9, 3, 3);
+}
+#tituloeq {
+    text-align: center
+}
+.tituloeq {
+    text-align: center;
+    padding: 10px;
+}
+.imgeq {
+    height: 300px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+}
+.imgeq1 {
+    background-image: url(Img/Equipokite.jpg);
+}
+.imgeq2 {
+    background-image: url(Img/Equipobarra.jpg);
+}
+.imgeq3 {
+    background-image: url(Img/Equipoarnes.jpg);
+}
+.imgeq4 {
+    background-image: url(Img/Equipotablas.png);
+}
+.imgeq5 {
+    background-image: url(Img/Equiponeoprene.jpg);
+}
+.imgeq6 {
+    background-image: url(Img/Equipootros.jpg);
+}
