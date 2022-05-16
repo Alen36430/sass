@@ -633,6 +633,47 @@ footer {
   padding-bottom: 15px;
 }
 
+.contenedor-img, .principe-img, .bomberos-img, .alamo-img, .sansebastian-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+}
+
+.contenedor-img {
+  background-image: url("img/contenedor.jpg");
+  background-color: #110501;
+  background-size: cover;
+  background-position: center;
+}
+
+.principe-img {
+  background-image: url("img/principe.jpg");
+  background-color: #110501;
+  background-size: cover;
+  background-position: center;
+}
+
+.bomberos-img {
+  background-image: url("img/bomberos.jpg");
+  background-color: #110501;
+  background-size: cover;
+  background-position: center;
+}
+
+.alamo-img {
+  background-image: url("img/alamo.jpg");
+  background-color: #110501;
+  background-size: cover;
+  background-position: center;
+}
+
+.sansebastian-img {
+  background-image: url("img/sansebastian.jpg");
+  background-color: #110501;
+  background-size: cover;
+  background-position: center;
+}
+
 /*EQUIPO*/
 .equipo {
   height: 600px;

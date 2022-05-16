@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,700;1,900&display=swap');
 
+
+
 body {
     background-color: skyblue;
     padding: 0;
@@ -464,41 +466,21 @@ footer {
     margin: 15px;
     padding-bottom: 15px;
 }
+//SPOTS
+.contenedor-img, .principe-img, .bomberos-img, .alamo-img, .sansebastian-img{
+    height: 200px ;
+    width: 200px ;
+    border-radius: 20%;
+}
+@each $parador in contenedor , principe , bomberos , alamo , sansebastian{
+    .#{$parador}-img{
+        background-image: url("img/#{$parador}.jpg");
+        background-color: #110501;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
 
 /*EQUIPO*/
-.equipo {
-    height: 600px;
-    width: 100%;
-    background-color: rgb(9, 3, 3);
-}
-#tituloeq {
-    text-align: center
-}
-.tituloeq {
-    text-align: center;
-    padding: 10px;
-}
-.imgeq {
-    height: 300px;
-    width: auto;
-    background-size: cover;
-    background-position: center;
-}
-.imgeq1 {
-    background-image: url(Img/Equipokite.jpg);
-}
-.imgeq2 {
-    background-image: url(Img/Equipobarra.jpg);
-}
-.imgeq3 {
-    background-image: url(Img/Equipoarnes.jpg);
-}
-.imgeq4 {
-    background-image: url(Img/Equipotablas.png);
-}
-.imgeq5 {
-    background-image: url(Img/Equiponeoprene.jpg);
-}
-.imgeq6 {
-    background-image: url(Img/Equipootros.jpg);
-}
+@import"equipo.scss"
