@@ -483,7 +483,7 @@ $red: red ;
 }
 @each $parador in contenedor , principe , bomberos , alamo , sansebastian{
     .#{$parador}-img{
-        background-image: url("img/#{$parador}.jpg");
+        background-image: url("Img/#{$parador}.jpg");
         background-color: #110501;
         background-size: cover;
         background-position: center;
