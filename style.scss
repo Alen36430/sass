@@ -467,10 +467,19 @@ footer {
     padding-bottom: 15px;
 }
 //SPOTS
+$blue: skyblue;
+$white: rgb(244, 246, 246); 
+$green: rgb(156, 239, 13);
+$red: red ;
+
+@mixin conten ($height, $whith, $border-r) {
+    height: $height;
+    width: $whith;
+    border-radius: $border-r;
+}
+    
 .contenedor-img, .principe-img, .bomberos-img, .alamo-img, .sansebastian-img{
-    height: 200px ;
-    width: 200px ;
-    border-radius: 20%;
+    @include conten( 200px, 400px , 10%)
 }
 @each $parador in contenedor , principe , bomberos , alamo , sansebastian{
     .#{$parador}-img{
@@ -479,6 +488,9 @@ footer {
         background-size: cover;
         background-position: center;
     }
+}
+.imgspot{
+    @extend .img01;    
 }
 
 
